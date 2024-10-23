@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SimpleAuthentication",
-    "slug": "SimpleAuthentication",
+    "name": "N322-Homework-2",
+    "slug": "N322-Homework-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +17,6 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
