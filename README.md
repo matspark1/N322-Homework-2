@@ -15,13 +15,27 @@ On the profile page the user can signout and view their email.
    npm install
    ```
 
-2. Start the app
+2. Install clerk
+   ```bash
+   npm install @clerk/clerk-expo
+   ```
+
+3. Install React Native Paper components.
+
+   ```bash
+      npm install react-native-paper
+      npm install react-native-safe-area-context
+      npm install react-native-vector-icons
+   ```
+
+4. Start the app
 
    ```bash
     npm run start
    ```
-3. To run on an andriod emulator, press "a" in the terminal after starting the app
 
-3. To run on the web, press "w" in the terminal after starting the app
+5. To run on an andriod emulator, press "a" in the terminal after starting the app
 
-4. To run on your personal phone, scan the QR code in the terminal with Expo Go (Android) or the Camera app (iOS)
+6. To run on the web, press "w" in the terminal after starting the app
+
+7. To run on your personal phone, scan the QR code in the terminal with Expo Go (Android) or the Camera app (iOS)
