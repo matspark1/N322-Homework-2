@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import { Colors } from "@/constants/Colors";
 
-export default function index() {
+export default function home() {
   return (
     <View style={styles.container}>
       <View style={styles.topView}>

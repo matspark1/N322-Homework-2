@@ -1,13 +1,15 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import { Button, onPress } from "react-native-paper";
-import { useRouter } from "expo-router";
+import { useRouter, Redirect } from "expo-router";
 import { useClerk, useUser } from "@clerk/clerk-expo";
 import { Colors } from "@/constants/Colors";
 
 export default function profile() {
   const { signOut } = useClerk();
   const { user } = useUser();
+  const router = useRouter();
+
   const handleSignOut = async () => {
     try {
       await signOut();

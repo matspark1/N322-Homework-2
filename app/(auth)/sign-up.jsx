@@ -45,7 +45,7 @@ export default function Signup() {
 
       if (completeSignUp.status === "complete") {
         await setActive({ session: completeSignUp.createdSessionId });
-        router.replace("/(tabs)");
+        router.replace("/(tabs)/home");
       } else {
         console.error(JSON.stringify(completeSignUp, null, 2));
       }
